@@ -22,7 +22,7 @@ int main()
     printf("%d",sum);//打印sum的值，输出函数%d为格式化符
     return 0;
 }
-*/
+
 //从键盘读取数据
 #include <stdio.h>
 int main()
@@ -30,4 +30,14 @@ int main()
     int a;
     scanf("%d",&a);
     printf("您刚才输入的值为a:%d\n",a);
+}
+*/
+#include<stdio.h>
+int main()
+{
+    int a=123;//定义整型变量a=123
+    int b=456;//定义整形变量b值为456
+    int sum=a+b;//定义整型变量sum值为a与b的和
+    printf("%d",sum);//打印sum的值，输出函数%d为格式化符
+    return 0;
 }
